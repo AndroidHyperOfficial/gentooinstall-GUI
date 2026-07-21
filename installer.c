@@ -269,7 +269,7 @@ int main() {
         char menu_choice[16] = {0};
         snprintf(cmd, sizeof(cmd),
                  "dialog --clear --colors --title \"Gentoo System Architect\" "
-                 "--menu \"=== ARCHINSTALL STYLE GENTOO DEPLOYMENT ===\" 24 80 16 "
+                 "--menu \"=== Gentoo Installer GUI Menu T2.0 ===\" 24 80 16 "
                  "\"1\"  \"\\Z1[System]\\Zn      Language:            [%s]\" "
                  "\"2\"  \"\\Z1[System]\\Zn      Gentoo Mirror:       [%s]\" "
                  "\"3\"  \"\\Z2[Storage]\\Zn     Disk & Partitioning: [%s | %s | %s]\" "
