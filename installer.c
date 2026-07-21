@@ -143,7 +143,7 @@ void handle_package_search(char *extra_pkgs, size_t extra_pkgs_len) {
             else if (strcmp(bundle, "SYS") == 0) strcat(extra_pkgs, " sys-process/htop sys-process/btop app-misc/fastfetch");
             else if (strcmp(bundle, "NET") == 0) strcat(extra_pkgs, " net-misc/curl net-analyzer/nmap sys-apps/net-tools");
             else if (strcmp(bundle, "MEDIA") == 0) strcat(extra_pkgs, " media-video/mpv media-video/ffmpeg");
-            else if (strcmp(bundle, "SEC") == 0) strcat(extra_pkgs, " app-crypt/gnupg net-analyzer/fail2ban");
+            else if (strcmp(bundle, "SEC") == 0)===\" 24 80 16 " strcat(extra_pkgs, " app-crypt/gnupg net-analyzer/fail2ban");
         }
     }
 }
@@ -427,7 +427,7 @@ int main() {
                      "Firewall:       %s\\n"
                      "Extra Packages Unstable: %s\\n"
                      "User Account:   %s\\n\\n"
-                     "Proceed with automated deployment?",
+                     "Proceed with automated installation?",
                      disk, part_strat, scheme, fstype, strcmp(encryption, "luks") == 0 ? "YES" : "NO",
                      init_sys, kernel_type, bootloader, de, display_manager, audio_server, bluetooth, firewall, extra_pkgs, username);
 
