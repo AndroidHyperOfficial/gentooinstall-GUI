@@ -40,7 +40,7 @@ if ! is_uefi; then SCHEME="MBR"; fi
 # Main Configuration Menu Loop
 while true; do
     CHOICE=$(dialog --clear --stdout \
-        --title "Gentoo Linux Installer T2.0" \
+        --title "Gentoo Linux Installer T2.1" \
         --menu "Use Up/Down arrows to select a configuration option:" 22 75 13 \
         "1" "Target Disk & Partitions ($TARGET_DISK, $FSTYPE)" \
         "2" "Init System ($INIT_SYS)" \
