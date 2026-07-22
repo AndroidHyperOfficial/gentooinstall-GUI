@@ -1,5 +1,5 @@
 # gentooinstall-GUI
-a script wrapper for manual gentoo installer written on c language
+a script wrapper for manual gentoo installer 
 (Recommended to use in qemu(virtio manager) or vmware)
 ### Why you should use it
 * its easy to use: gentoo manual installation is very hard to do it but with gentooinstall-GUI instead of spending 10 hours to install gentoo it would drop to only like 40 mins (with compiling packages)
@@ -7,7 +7,7 @@ a script wrapper for manual gentoo installer written on c language
 ```bash
 git clone https://github.com/AndroidHyperOfficial/gentooinstall-GUI
 cd gentooinstall-GUI
-chmod +x installer
-./installer
+chmod +x installer.sh
+./installer.sh
 ```
-### DONT USE ADDITIONAL PACKAGES ITS BUGGY AND CAN LEAD TO CORRUPT YOUR GENTOO LIVECD GUI OR MANUAL!
+
